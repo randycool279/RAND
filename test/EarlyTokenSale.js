@@ -12,7 +12,7 @@ import {
 import { assertOpcode } from './helpers/assertOpcode';
 import { blocktravel } from './helpers/timetravel';
 
-const TNBToken = artifacts.require('TNBToken');
+const TNBToken = artifacts.require('RANDToken');
 const PreTokenSale = artifacts.require('PreTokenSale');
 const EarlyTokenSale = artifacts.require('EarlyTokenSale');
 const MultiSigWallet = artifacts.require('MultiSigWallet');
